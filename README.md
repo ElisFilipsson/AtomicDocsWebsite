@@ -4,6 +4,7 @@ To do a styleguide in Atomic Docs based on assignment 1.
 
 1. Npm install
 2. Start 'start-atomic.bat'
+3. Start Mamp or simular
 3. The styleguide will display in your browser
 
 # Atomic Docs
