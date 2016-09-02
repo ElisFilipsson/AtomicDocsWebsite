@@ -1,0 +1,94 @@
+/* scss/base/_fonts.scss */
+
+$root-font-size: 10px;
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:100,300,500,700);
+$font-family-body: 'Roboto', sans-serif;
+$default-font-weight: 300;
+
+
+/* Inserting type */
+html {
+  background-color: #f5f5f5;
+  color: $text;
+  font-size: 10pt;
+  line-height: 1.38;
+  font-family: $font-family-body;
+  font-weight: $default-font-weight;
+  text-rendering: optimizeLegibility;
+}
+p {
+  margin: 10px;
+}
+a {
+  color: $text;
+}
+.light {
+  font-weight: 100;
+  font-size: 98pt;
+}
+.regular {
+  font-weight: 300;
+
+  @at-root #{&}--12{
+    font-size: 10pt;
+  }
+  @at-root #{&}--14{
+    font-size: 12pt;
+  }
+  @at-root #{&}--15{
+    font-size: 13pt;
+  }
+  @at-root #{&}--16{
+    font-size: 14pt;
+  }
+  @at-root #{&}--17{
+    font-size: 15pt;
+  }
+  @at-root #{&}--24{
+    font-size: 22pt;
+  }
+  @at-root #{&}--34{
+    font-size: 32pt;
+  }
+  @at-root #{&}--45{
+    font-size: 43pt;
+  }
+  @at-root #{&}--56{
+    font-size: 54pt;
+  }
+}
+.medium {
+  font-weight: 500;
+
+  @at-root #{&}--14{
+    font-size: 12pt;
+  }
+  @at-root #{&}--15{
+    font-size: 13pt;
+  }
+  @at-root #{&}--20{
+    font-size: 18pt;
+  }
+}
+.bold {
+  font-weight: 700;
+
+  @at-root #{&}--15{
+    font-size: 13pt;
+  }
+}
+.caps {
+  text-transform: uppercase;
+}
+.dense {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.spacer {
+  margin:30px;
+
+  @at-root #{&}--line{
+    margin:20px;
+    border-top: 2px dotted $text;
+  } 
+}

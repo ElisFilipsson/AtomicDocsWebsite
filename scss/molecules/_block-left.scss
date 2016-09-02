@@ -1,0 +1,11 @@
+/* scss/molecules/_block-left.scss */
+
+.block-left {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}

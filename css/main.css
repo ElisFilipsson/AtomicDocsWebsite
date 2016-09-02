@@ -1,0 +1,267 @@
+/* scss/base/_colors.scss */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:100,300,500,700);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+.color-group {
+  display: flex;
+  margin: 20px;
+  padding: 20px; }
+  .color-group__color-swatch {
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    margin: 10px; }
+    .color-group__color-swatch--blue {
+      background-color: #4285f4;
+      height: 100px; }
+    .color-group__color-swatch--green {
+      background-color: #34A854;
+      height: 100px; }
+    .color-group__color-swatch--yellow {
+      background-color: #FBBC05;
+      height: 100px; }
+    .color-group__color-swatch--red {
+      background-color: #EA4335;
+      height: 100px; }
+
+.headline {
+  font-weight: 400;
+  color: #8b8b8b;
+  font-size: 14pt;
+  margin: 5px; }
+
+.subline {
+  font-weight: 600;
+  color: #8b8b8b;
+  font-size: 10pt; }
+
+/* scss/base/_fonts.scss */
+/* Inserting type */
+html {
+  background-color: #f5f5f5;
+  color: #8b8b8b;
+  font-size: 10pt;
+  line-height: 1.38;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility; }
+
+p {
+  margin: 10px; }
+
+a {
+  color: #8b8b8b; }
+
+.light {
+  font-weight: 100;
+  font-size: 98pt; }
+
+.regular {
+  font-weight: 300; }
+  .regular--12 {
+    font-size: 10pt; }
+  .regular--14 {
+    font-size: 12pt; }
+  .regular--15 {
+    font-size: 13pt; }
+  .regular--16 {
+    font-size: 14pt; }
+  .regular--17 {
+    font-size: 15pt; }
+  .regular--24 {
+    font-size: 22pt; }
+  .regular--34 {
+    font-size: 32pt; }
+  .regular--45 {
+    font-size: 43pt; }
+  .regular--56 {
+    font-size: 54pt; }
+
+.medium {
+  font-weight: 500; }
+  .medium--14 {
+    font-size: 12pt; }
+  .medium--15 {
+    font-size: 13pt; }
+  .medium--20 {
+    font-size: 18pt; }
+
+.bold {
+  font-weight: 700; }
+  .bold--15 {
+    font-size: 13pt; }
+
+.caps {
+  text-transform: uppercase; }
+
+.dense {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.spacer {
+  margin: 30px; }
+  .spacer--line {
+    margin: 20px;
+    border-top: 2px dotted #8b8b8b; }
+
+/* scss/base/_link.scss */
+a:link {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #8b8b8b; }
+
+a:hover {
+  text-decoration: underline; }
+
+/* scss/atoms/_btn.scss */
+.btn {
+  height: 45px;
+  color: #8b8b8b;
+  background-color: #ececec;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 5px;
+  border: 1px solid #ececec; }
+  .btn--click {
+    background-color: #f2f2f2;
+    color: black;
+    border: 1px solid #4285f4; }
+  .btn--hover {
+    background-color: #f2f2f2;
+    color: black;
+    border: 1px solid #ececec; }
+
+/* scss/atoms/_icon.scss */
+.icon-styling {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center; }
+
+.icon {
+  font-size: 22pt;
+  font-family: 'Material Icons';
+  font-style: normal;
+  margin: 10px;
+  line-height: 20px; }
+  .icon--grey {
+    color: #8b8b8b; }
+  .icon--blue {
+    color: #4285f4; }
+  .icon--medium {
+    font-size: 16pt; }
+  .icon--notification {
+    font-size: 12pt;
+    color: #FFFFFF;
+    background-color: #8b8b8b;
+    border-radius: 20px;
+    padding: 5px; }
+
+/* scss/atoms/_logo.scss */
+.logo {
+  width: 400px; }
+
+/* scss/molecules/_btn-group.scss */
+.btn-group {
+  background-color: #FFFFFF;
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center; }
+
+/* scss/molecules/_icon-group.scss */
+.icon-group {
+  background-color: #FFFFFF;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end; }
+
+/* scss/molecules/_logo-group.scss */
+.logo-group {
+  background-color: #FFFFFF;
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center; }
+
+/* scss/molecules/_search-field.scss */
+.search-field {
+  height: 45px;
+  width: 700px;
+  border: 1px solid #4285f4;
+  padding-left: 10px;
+  background-image: url(../img/icons.svg);
+  background-repeat: no-repeat;
+  background-position: 600px 2px; }
+
+.search-field:focus {
+  box-shadow: none; }
+
+.input-group {
+  background-color: #FFFFFF;
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center; }
+
+/* scss/molecules/_block-left.scss */
+.block-left {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start; }
+
+/* scss/molecules/_block-right.scss */
+.block-right {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end; }
+
+/* scss/organisms/_header.scss */
+.header {
+  flex-basis: 2;
+  background-color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end; }
+
+/* scss/organisms/_footer.scss */
+.footer {
+  flex-basis: 2;
+  border-top: 1px solid #ddd;
+  background-color: #ececec;
+  margin: 0px;
+  padding: 0px;
+  display: flex; }
+
+/* scss/organisms/_block.scss */
+.block {
+  flex-basis: 8; }
+
+/* scss/pages/_index.scss */
+.start-page {
+  height: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column; }

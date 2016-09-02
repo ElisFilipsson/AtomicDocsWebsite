@@ -1,0 +1,11 @@
+/* scss/base/_link.scss */
+
+a:link {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: $text;
+}
+a:hover {
+  text-decoration: underline;
+}

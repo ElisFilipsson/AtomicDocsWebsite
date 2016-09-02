@@ -1,0 +1,52 @@
+/* scss/base/_colors.scss */
+
+$blue: #4285f4;
+$green: #34A854;
+$yellow: #FBBC05;
+$red: #EA4335;
+$text: #8b8b8b;
+$white: #FFFFFF;
+$bg: #ececec;
+
+.color-group {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+
+    @at-root #{&}__color-swatch{
+        background-color: $white;
+        width:200px;
+        height:200px;
+        padding:15px;
+        margin:10px;
+
+        @at-root #{&}--blue{
+            background-color:$blue;
+            height:100px;
+	    }
+        @at-root #{&}--green{
+            background-color:$green;
+            height:100px;
+	    }
+        @at-root #{&}--yellow{
+            background-color:$yellow;
+            height:100px;
+	    }
+        @at-root #{&}--red{
+            background-color:$red;
+            height:100px;
+	    }
+	}
+}
+.headline{
+    font-weight: 400;
+    color: $text;
+    font-size: 14pt;
+    margin:5px;
+}
+.subline{
+    font-weight: 600;
+    color: $text;
+    font-size: 10pt;
+}
+        

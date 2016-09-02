@@ -1,0 +1,36 @@
+/* scss/atoms/_icon.scss */
+
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+.icon-styling {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.icon {
+    font-size: 22pt;
+    font-family: 'Material Icons';
+    font-style: normal;
+    margin: 10px;
+    line-height: 20px;
+
+    @at-root #{&}--grey{
+        color:$text;
+    }
+    @at-root #{&}--blue{
+        color:$blue;
+    }
+    @at-root #{&}--medium{
+        font-size: 16pt;
+    }
+    @at-root #{&}--notification{
+        font-size: 12pt;
+        color: $white;
+        background-color: $text;
+        border-radius: 20px;
+        padding:5px;
+    }
+}
