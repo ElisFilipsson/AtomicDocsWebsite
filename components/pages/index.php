@@ -9,9 +9,8 @@
             <i class="icon icon--notification">&#xE7F4;</i>
         </div>
     </header>
-
+    <section>
     <section class="block">
-
         <div class="logo-group">
             <img src="img/logo.png" class="logo"></img>
         </div>
@@ -24,7 +23,7 @@
             <button type="button" class="btn bold medium--14">Sök på google</button>
             <button type="button" class="btn bold medium--14">Jag har tur</button>
         </div>
-
+    </section>
     </section>
 
     <footer class="footer">

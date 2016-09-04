@@ -248,7 +248,10 @@ a:hover {
 
 /* scss/organisms/_footer.scss */
 .footer {
-  flex-basis: 2;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
   border-top: 1px solid #ddd;
   background-color: #ececec;
   margin: 0px;
@@ -257,7 +260,10 @@ a:hover {
 
 /* scss/organisms/_block.scss */
 .block {
-  flex-basis: 8; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh; }
 
 /* scss/pages/_index.scss */
 .start-page {

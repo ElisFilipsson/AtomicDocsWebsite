@@ -4,65 +4,55 @@
     <title>Styleguide</title>
 
     <?php include("atomic-head.php"); ?>
-
-    <style>
-        html, body {
-            height: 100%;
-        }
-
-        .indexBlock {
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-            text-align: center;
-            max-width: 900px;;
-            margin: auto;
-        }
-
-        img {
-            max-width: 100%;
-
-        }
-        .shadow{
-            box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.25);
-        }
-
-        p {
-            font-family: sans-serif;
-        }
-
-        a {
-            color: #4BC6EF;
-            font-weight:bold;
-        }
-        .logo{
-            display: inline-block;
-            margin-bottom: 61px;
-        }
-
-    </style>
-
 </head>
 
 <body>
-<div class="indexBlock">
 
-    <img class="logo" src="http://atomicdocs.io/img/atomic-logo.svg">
+<!-- components/pages/index.php -->
+<div class="start-page">
 
-    <p>By default, Atomic Docs is set up for Sass. If you are using Less or Sass check out this <a href="http://atomicdocs.io/docs/less-stylus">post</a>.</p>
+    <header class="header">
+        <div class="icon-group">
+            <a href="#" class="regular regular--14 link">Gmail</a>
+            <a href="#" class="regular regular--14 link">Bilder</a>
+            <i class="icon icon--grey">&#xE5C3;</i>
+            <i class="icon icon--notification">&#xE7F4;</i>
+        </div>
+    </header>
 
-    <p>Set up in your php local environment and configure your preprocessor and start
-        <a href="atomic-core/?cat=readme">here</a>.</p>
+    <section class="block">
 
-    <p>This GIF pretty much explains what to do after that. Otherwise you can checkout
-        this <a href="https://www.youtube.com/watch?v=e8LjP6ynryQ" target="_blank">video</a>.</p><br/>
-    <img class="shadow" src="http://atomicdocs.io/img/demo1.gif"/>
+        <div class="logo-group">
+            <img src="img/logo.png" class="logo"></img>
+        </div>
+
+        <form class="input-group">
+            <input type="text" class="search-field regular regular--16" name="search">
+        </form>
+
+        <div class="btn-group">
+            <button type="button" class="btn bold medium--14">Sök på google</button>
+            <button type="button" class="btn bold medium--14">Jag har tur</button>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="block-left">
+            <a href="#" class="regular regular--14 link">Annonsering</a>
+            <a href="#" class="regular regular--14 link">Företagslösningar</a>
+            <a href="#" class="regular regular--14 link">Om</a>
+        </div>
+        <div class="block-right">
+            <a href="#" class="regular regular--14 link">Sekretess</a>
+            <a href="#" class="regular regular--14 link">Villkor</a>
+            <a href="#" class="regular regular--14 link">Inställningar</a>
+        </div>
+    </footer>
 
 </div>
+
 </body>
-
-<?php include("atomic-foot.php"); ?>
-
 </html>
 
 

@@ -1,5 +1,8 @@
 /* scss/organisms/_block.scss */
 
 .block {
-    flex-basis: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
 }

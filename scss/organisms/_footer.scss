@@ -1,7 +1,10 @@
 /* scss/organisms/_footer.scss */
 
 .footer {
-    flex-basis: 2;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
     border-top: 1px solid #ddd;
     background-color: $bg;
     margin: 0px;
