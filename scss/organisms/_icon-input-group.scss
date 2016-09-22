@@ -1,0 +1,37 @@
+/* scss/organisms/_icon-input-group.scss */
+
+.icon-input-group {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-flow: column;
+}
+.bg-black {
+    background-color: $bg-color07;
+    width: 100%;
+    
+}
+.flex-30 {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width : 960px) {
+    .icon-input-group {
+        display: flex;
+        width: 100%;
+        flex-flow: row;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .flex-30 {
+        display: block;
+        margin-top: 40px;
+        width: 400px;
+    }
+    .flex-70 {
+        width: 60%;
+    }
+}
+

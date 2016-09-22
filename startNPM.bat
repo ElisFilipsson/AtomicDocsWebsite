@@ -1,0 +1,1 @@
+START cmd.exe /k "cd c:\mamp\htdocs\atomic-docs-master\node_modules\backstopjs & npm run test"

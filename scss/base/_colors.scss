@@ -1,52 +1,113 @@
 /* scss/base/_colors.scss */
 
-$blue: #4285f4;
-$green: #34A854;
-$yellow: #FBBC05;
-$red: #EA4335;
-$text: #8b8b8b;
-$white: #FFFFFF;
-$bg: #ececec;
+$bg-color01: #3c71e0;
+$bg-color02: #ffffff;
+$bg-color03: #f0f0f0;
+$bg-color04: #3267d6;
+$bg-color05: #f0f2f3;
+$bg-color06: #fafafa;
+$bg-color07: #13181b;
+$bg-color08: #3f81ff;
+
+$text-color01: #2e2d33;
+$text-color02: #ffffff;
+$text-color03: #605f65;
+$text-color04: #4285f4;
+$text-color05: #000000;
+$text-color06: #585b63;
+$text-color07: #3267d6;
+$text-color08: #f7f7f7;
 
 .color-group {
     display: flex;
-    margin: 20px;
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
 
     @at-root #{&}__color-swatch{
-        background-color: $white;
-        width:200px;
+        background-color: #FFF;
+        width:150px;
         height:200px;
-        padding:15px;
-        margin:10px;
+        padding:10px;
+        margin:5px;
+        border: 1px solid #888888;
+        box-shadow:3px 3px 2px #888888;
 
-        @at-root #{&}--blue{
-            background-color:$blue;
-            height:100px;
+
+        @at-root #{&}--tc01{
+            background-color:$text-color01;
+            height:120px;
 	    }
-        @at-root #{&}--green{
-            background-color:$green;
-            height:100px;
+        @at-root #{&}--tc02{
+            background-color:$text-color02;
+            height:120px;
 	    }
-        @at-root #{&}--yellow{
-            background-color:$yellow;
-            height:100px;
+        @at-root #{&}--tc03{
+            background-color:$text-color03;
+            height:120px;
 	    }
-        @at-root #{&}--red{
-            background-color:$red;
-            height:100px;
+        @at-root #{&}--tc04{
+            background-color:$text-color04;
+            height:120px;
+	    }
+        @at-root #{&}--tc05{
+            background-color:$text-color05;
+            height:120px;
+	    }
+        @at-root #{&}--tc06{
+            background-color:$text-color06;
+            height:120px;
+	    }
+        @at-root #{&}--tc07{
+            background-color:$text-color07;
+            height:120px;
+	    }
+        @at-root #{&}--tc08{
+            background-color:$text-color08;
+            height:120px;
+	    }
+        @at-root #{&}--bgc01{
+            background-color:$bg-color01;
+            height:120px;
+	    }
+        @at-root #{&}--bgc02{
+            background-color:$bg-color02;
+            height:120px;
+	    }
+        @at-root #{&}--bgc03{
+            background-color:$bg-color03;
+            height:120px;
+	    }
+        @at-root #{&}--bgc04{
+            background-color:$bg-color04;
+            height:120px;
+	    }
+        @at-root #{&}--bgc05{
+            background-color:$bg-color05;
+            height:120px;
+	    }
+        @at-root #{&}--bgc06{
+            background-color:$bg-color06;
+            height:120px;
+	    }
+        @at-root #{&}--bgc07{
+            background-color:$bg-color07;
+            height:120px;
+	    }
+        @at-root #{&}--bgc08{
+            background-color:$bg-color08;
+            height:120px;
 	    }
 	}
 }
 .headline{
     font-weight: 400;
-    color: $text;
+    color: #888;
     font-size: 14pt;
     margin:5px;
-}
-.subline{
-    font-weight: 600;
-    color: $text;
-    font-size: 10pt;
+    border-bottom: 1px solid #888;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-top: 50px;
+    width: 80%;
 }
         

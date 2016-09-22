@@ -1,0 +1,22 @@
+/* scss/molecules/_text-area.scss */
+
+.text-area {
+    display: none;
+    background-color: $bg-color02;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @at-root #{&}--part {
+        width: 50%;
+        margin: 15px;
+    }
+}
+
+@media screen and (min-width : 960px) {
+    .text-area {
+        display: flex;
+    }
+}

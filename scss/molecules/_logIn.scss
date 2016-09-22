@@ -1,0 +1,30 @@
+/* scss/molecules/_logIn.scss */
+
+
+.input-group {
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.input-btn {
+    height: 55px;
+    width: 90%;
+    padding: 20px;
+    margin: 10px;
+    background-color: $bg-color04;
+    color: $text-color02;
+}
+.input-field {
+    height: 55px;
+    width: 90%;
+    padding: 20px;
+    margin: 10px;
+}
+.input-field:focus { 
+    box-shadow: none;
+}

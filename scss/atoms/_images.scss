@@ -1,0 +1,23 @@
+/* scss/atoms/_images.scss */
+
+.preview-group {
+    display: flex;
+
+    @at-root #{&}--preview {
+        height: 102px;
+        width: 100px;
+        margin: 10px;
+    }
+}
+.small {
+    height: 100px;
+    width: 102px;
+}
+.medium {
+    height: 156px;
+    width: 249px;
+}
+.large {
+    height: 560px;
+    width: 1440px;
+}

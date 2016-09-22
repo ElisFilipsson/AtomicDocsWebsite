@@ -16,35 +16,11 @@
         "has_js": "false"
     },
     {
-        "component": "btn",
-        "category": "atoms",
-        "description": "Basic button",
-        "backgroundColor": "",
-        "order": 9,
-        "has_js": "true"
-    },
-    {
         "component": "icon",
         "category": "atoms",
         "description": "",
         "backgroundColor": "",
         "order": 9,
-        "has_js": "false"
-    },
-    {
-        "component": "logo",
-        "category": "atoms",
-        "description": "",
-        "backgroundColor": "",
-        "order": 9,
-        "has_js": "false"
-    },
-    {
-        "component": "btn-group",
-        "category": "molecules",
-        "description": "",
-        "backgroundColor": "",
-        "order": 10,
         "has_js": "false"
     },
     {
@@ -56,67 +32,11 @@
         "has_js": "false"
     },
     {
-        "component": "header",
-        "category": "organisms",
-        "description": "",
-        "backgroundColor": "",
-        "order": 12,
-        "has_js": "false"
-    },
-    {
-        "component": "footer",
-        "category": "organisms",
-        "description": "",
-        "backgroundColor": "",
-        "order": 13,
-        "has_js": "false"
-    },
-    {
-        "component": "block",
-        "category": "organisms",
-        "description": "",
-        "backgroundColor": "",
-        "order": 14,
-        "has_js": "false"
-    },
-    {
-        "component": "logo-group",
-        "category": "molecules",
-        "description": "",
-        "backgroundColor": "",
-        "order": 15,
-        "has_js": "false"
-    },
-    {
-        "component": "search-field",
+        "component": "logIn",
         "category": "molecules",
         "description": "",
         "backgroundColor": "",
         "order": 16,
-        "has_js": "false"
-    },
-    {
-        "component": "block-left",
-        "category": "molecules",
-        "description": "",
-        "backgroundColor": "",
-        "order": 17,
-        "has_js": "false"
-    },
-    {
-        "component": "block-right",
-        "category": "molecules",
-        "description": "",
-        "backgroundColor": "",
-        "order": 18,
-        "has_js": "false"
-    },
-    {
-        "component": "link",
-        "category": "base",
-        "description": "",
-        "backgroundColor": "",
-        "order": 2,
         "has_js": "false"
     },
     {
@@ -125,6 +45,62 @@
         "description": "Start page",
         "backgroundColor": "",
         "order": 16,
+        "has_js": "false"
+    },
+    {
+        "component": "menu",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 17,
+        "has_js": "false"
+    },
+    {
+        "component": "images",
+        "category": "atoms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 17,
+        "has_js": "false"
+    },
+    {
+        "component": "img-text",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 16,
+        "has_js": "false"
+    },
+    {
+        "component": "card-group",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 17,
+        "has_js": "false"
+    },
+    {
+        "component": "text-area",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 11,
+        "has_js": "false"
+    },
+    {
+        "component": "icon-input-group",
+        "category": "organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 12,
+        "has_js": "false"
+    },
+    {
+        "component": "start-page",
+        "category": "organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 13,
         "has_js": "false"
     }
 ]

@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     align-content: center;
+    font-style: normal;
 }
 
 .icon {
@@ -16,21 +17,5 @@
     font-style: normal;
     margin: 10px;
     line-height: 20px;
-
-    @at-root #{&}--grey{
-        color:$text;
-    }
-    @at-root #{&}--blue{
-        color:$blue;
-    }
-    @at-root #{&}--medium{
-        font-size: 16pt;
-    }
-    @at-root #{&}--notification{
-        font-size: 12pt;
-        color: $white;
-        background-color: $text;
-        border-radius: 20px;
-        padding:5px;
-    }
+    color: $text-color02;
 }

@@ -1,0 +1,175 @@
+{
+  "compareConfig": {
+    "testPairs": [
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_0_html_0_phone.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_0_html_0_phone.png",
+        "selector": "html",
+        "fileName": "0_0_html_0_phone.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_1_body_0_phone.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_1_body_0_phone.png",
+        "selector": "body",
+        "fileName": "0_1_body_0_phone.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_2_start-page_0_phone.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_2_start-page_0_phone.png",
+        "selector": ".start-page",
+        "fileName": "0_2_start-page_0_phone.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_0_html_1_tablet_v.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_0_html_1_tablet_v.png",
+        "selector": "html",
+        "fileName": "0_0_html_1_tablet_v.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_1_body_1_tablet_v.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_1_body_1_tablet_v.png",
+        "selector": "body",
+        "fileName": "0_1_body_1_tablet_v.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_2_start-page_1_tablet_v.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_2_start-page_1_tablet_v.png",
+        "selector": ".start-page",
+        "fileName": "0_2_start-page_1_tablet_v.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_0_html_2_tablet_h.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_0_html_2_tablet_h.png",
+        "selector": "html",
+        "fileName": "0_0_html_2_tablet_h.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_1_body_2_tablet_h.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_1_body_2_tablet_h.png",
+        "selector": "body",
+        "fileName": "0_1_body_2_tablet_h.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_2_start-page_2_tablet_h.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_2_start-page_2_tablet_h.png",
+        "selector": ".start-page",
+        "fileName": "0_2_start-page_2_tablet_h.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_0_html_3_desktop.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_0_html_3_desktop.png",
+        "selector": "html",
+        "fileName": "0_0_html_3_desktop.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_1_body_3_desktop.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_1_body_3_desktop.png",
+        "selector": "body",
+        "fileName": "0_1_body_3_desktop.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/0_2_start-page_3_desktop.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/0_2_start-page_3_desktop.png",
+        "selector": ".start-page",
+        "fileName": "0_2_start-page_3_desktop.png",
+        "label": "Everything"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_0_btn-container_0_phone.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_0_btn-container_0_phone.png",
+        "selector": ".btn-container",
+        "fileName": "1_0_btn-container_0_phone.png",
+        "label": "Organisms"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_1_logo-container_0_phone.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_1_logo-container_0_phone.png",
+        "selector": ".logo-container",
+        "fileName": "1_1_logo-container_0_phone.png",
+        "label": "Organisms"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_2_icon-container_0_phone.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_2_icon-container_0_phone.png",
+        "selector": ".icon-container",
+        "fileName": "1_2_icon-container_0_phone.png",
+        "label": "Organisms"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_0_btn-container_1_tablet_v.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_0_btn-container_1_tablet_v.png",
+        "selector": ".btn-container",
+        "fileName": "1_0_btn-container_1_tablet_v.png",
+        "label": "Organisms"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_1_logo-container_1_tablet_v.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_1_logo-container_1_tablet_v.png",
+        "selector": ".logo-container",
+        "fileName": "1_1_logo-container_1_tablet_v.png",
+        "label": "Organisms"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_2_icon-container_1_tablet_v.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_2_icon-container_1_tablet_v.png",
+        "selector": ".icon-container",
+        "fileName": "1_2_icon-container_1_tablet_v.png",
+        "label": "Organisms"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_0_btn-container_2_tablet_h.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_0_btn-container_2_tablet_h.png",
+        "selector": ".btn-container",
+        "fileName": "1_0_btn-container_2_tablet_h.png",
+        "label": "Organisms"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_1_logo-container_2_tablet_h.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_1_logo-container_2_tablet_h.png",
+        "selector": ".logo-container",
+        "fileName": "1_1_logo-container_2_tablet_h.png",
+        "label": "Organisms"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_2_icon-container_2_tablet_h.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_2_icon-container_2_tablet_h.png",
+        "selector": ".icon-container",
+        "fileName": "1_2_icon-container_2_tablet_h.png",
+        "label": "Organisms"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_0_btn-container_3_desktop.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_0_btn-container_3_desktop.png",
+        "selector": ".btn-container",
+        "fileName": "1_0_btn-container_3_desktop.png",
+        "label": "Organisms"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_1_logo-container_3_desktop.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_1_logo-container_3_desktop.png",
+        "selector": ".logo-container",
+        "fileName": "1_1_logo-container_3_desktop.png",
+        "label": "Organisms"
+      },
+      {
+        "reference": "../../backstop_data/bitmaps_reference/1_2_icon-container_3_desktop.png",
+        "test": "../../backstop_data/bitmaps_test/20160916-160319/1_2_icon-container_3_desktop.png",
+        "selector": ".icon-container",
+        "fileName": "1_2_icon-container_3_desktop.png",
+        "label": "Organisms"
+      }
+    ]
+  },
+  "lastConfigHash": "8403c79df2b8790db5c20dd6457562c46bf9608b"
+}

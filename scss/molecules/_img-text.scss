@@ -1,0 +1,47 @@
+/* scss/molecules/_img-text.scss */
+.temp-bg {
+    background-color: $bg-color07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.textframe {
+    border: 5px solid $text-color02;
+    width: 590px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+
+    @at-root #{&}--white {
+        color: $text-color02;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin:5px;
+        padding-bottom:0px;
+    }
+    @at-root #{&}--black {
+        color: $text-color05;
+        background-color: $bg-color02;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin:5px;
+        padding-bottom:0px;
+    }
+}
+.subheader {
+    color: $text-color03;
+    width: 580px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}

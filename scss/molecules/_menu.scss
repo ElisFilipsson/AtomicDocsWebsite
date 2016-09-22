@@ -1,0 +1,95 @@
+/* scss/molecules/_menu.scss */
+
+.navBar {
+  background-color: $bg-color04;
+  position: relative;
+  min-width: 100%;
+}
+
+.logo {
+  background-color: $bg-color02;
+  color: $text-color07;
+  display: inline-block;
+  height: 40px;
+  width: 170px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+// Content Wrapper
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 2%;
+}
+
+// Full Navigation, including mobile menu
+nav {
+  .ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 60%;
+    
+    .a {
+      color: $text-color02;
+      text-decoration: none;
+    }
+  }
+  
+  .li  {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #menu-toggle {
+      display: none;
+    }
+  .label-toggle {
+      display: none;
+    }
+  .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .ul {
+      background-color: $bg-color04;
+      display: block;
+      height: 0;
+      list-style-type: none;
+      opacity: 0;
+      text-align: center;
+      transition: all 1s ease;
+      width: 100%;
+      visibility: hidden;
+    }
+    
+    .li {
+      color: $text-color02;
+      display: block;
+      font-size: 1.5em;
+      padding: 2em 0;
+    }
+  
+    #menu-toggle:checked ~ .ul {
+      opacity: 1;
+      height: 100vh;
+      visibility: visible;
+    }
+    
+    .label-toggle {
+      cursor: pointer;
+      display: block;
+      height: 35px;
+      margin-top: 5px;
+      width: 35px;
+    }
+    
+    .wrapper {display: block;}
+  }
+}

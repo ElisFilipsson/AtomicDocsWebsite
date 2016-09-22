@@ -1,0 +1,31 @@
+{
+  "name": "atomic-docs-master",
+  "version": "1.0.0",
+  "description": "atomic docs, jade, js, npm run test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElisFilipsson/rw2-styleguide.git"
+  },
+  "author": "'Sandra <'ardnassandra13@gmail.com'>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElisFilipsson/rw2-styleguide/issues"
+  },
+  "homepage": "https://github.com/ElisFilipsson/rw2-styleguide#readme",
+  "devDependencies": {
+    "backstopjs": "^1.3.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-louis": "^2.1.1",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.3",
+    "jade-atomic": "^1.0.3"
+  }
+}

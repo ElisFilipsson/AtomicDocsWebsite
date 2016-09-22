@@ -1,23 +1,23 @@
 [
     {
         "category": "atoms",
-        "order": 4
+        "order": 1
     },
     {
         "category": "molecules",
-        "order": 5
+        "order": 2
     },
     {
         "category": "organisms",
-        "order": 6
+        "order": 3
     },
     {
         "category": "templates",
-        "order": 7
+        "order": 4
     },
     {
         "category": "pages",
-        "order": 8
+        "order": 5
     },
     {
         "category": "base",
