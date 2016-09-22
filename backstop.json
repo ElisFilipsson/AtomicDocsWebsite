@@ -44,5 +44,5 @@
   "report": ["CLI", "browser"],
   "casperFlags": [],
   "debug": false,
-  "port": 4001
+  "port": 3001
 }
