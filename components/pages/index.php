@@ -9,7 +9,7 @@
       <nav class="wrapper">
         <div class="logo">DESTINATION [ ? ]</div>
         <form>
-          <input type="checkbox" id="menu-toggle"/>
+          <input id="menu-toggle" type="checkbox"/>
           <label for="menu-toggle" class="label-toggle"></label>
         </form>
         <ul class="ul"></ul><a href="#" class="a">

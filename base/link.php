@@ -1,1 +1,0 @@
-<a href="#" class="regular regular--14">Annonsering</a>

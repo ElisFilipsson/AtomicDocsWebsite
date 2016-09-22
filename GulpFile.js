@@ -34,7 +34,7 @@ gulp.task('louis', function() {
     noExternals: false,
     performanceBudget: {
       requests: 2,
-      medianLatency: 10,
+      medianLatency: 120,
       slowestResponse: 1000
     }
   });

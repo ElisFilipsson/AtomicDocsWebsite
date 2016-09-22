@@ -193,14 +193,17 @@ a {
 .navBar {
   background-color: #3267d6;
   position: relative;
-  min-width: 100%; }
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  text-decoration: none; }
 
 .logo {
   background-color: #ffffff;
   color: #3267d6;
-  display: inline-block;
-  height: 40px;
-  width: 170px;
+  height: 20px;
+  min-width: 170px;
   padding: 10px;
   cursor: pointer; }
 
@@ -211,12 +214,15 @@ a {
 
 nav .ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   list-style-type: none;
-  width: 60%; }
-  nav .ul .a {
-    color: #ffffff;
-    text-decoration: none; }
+  width: 50%;
+  background-color: #3267d6; }
+
+nav .link {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none; }
 
 nav .li {
   margin-left: 20px;
@@ -235,7 +241,7 @@ nav .wrapper {
   display: flex;
   justify-content: space-between; }
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 0px) and (max-width: 640px) {
   nav .ul {
     background-color: #3267d6;
     display: block;
@@ -248,11 +254,11 @@ nav .wrapper {
     visibility: hidden; }
   nav .li {
     color: #ffffff;
-    display: block;
     font-size: 1.5em;
-    padding: 2em 0; }
+    padding: 0.2em 0;
+    background-color: #3267d6;
+    text-decoration: none; }
   nav #menu-toggle:checked ~ .ul {
-    opacity: 1;
     height: 100vh;
     visibility: visible; }
   nav .label-toggle {
@@ -260,7 +266,8 @@ nav .wrapper {
     display: block;
     height: 35px;
     margin-top: 5px;
-    width: 35px; }
+    width: 35px;
+    background-image: url(../img/ic_dehaze_white_24px.svg); }
   nav .wrapper {
     display: block; } }
 

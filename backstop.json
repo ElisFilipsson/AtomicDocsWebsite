@@ -14,11 +14,6 @@
       "name": "tablet_h",
       "width": 1024,
       "height": 768
-    },
-    {
-      "name": "desktop",
-      "width": 1366,
-      "height": 768
     }
   ],
   "scenarios": [
@@ -49,5 +44,5 @@
   "report": ["CLI", "browser"],
   "casperFlags": [],
   "debug": false,
-  "port": 3001
+  "port": 4001
 }
